@@ -1,0 +1,61 @@
+body{
+	background-color: #c6bbc9;
+}
+img {
+	position: absolute;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+ul {
+	list-style-type: none;
+	display: inline-block;	
+}
+button{
+    background-color: #af97af;
+    color: white;
+	margin-bottom: 5%;
+    padding: 3px 6px;
+	margin: 3px 3px;
+    text-align: center;
+	border: none;
+}
+character{
+	z-index: 0;   
+}
+.hat{
+	visibility: hidden;
+	z-index: 9;
+}
+.hair{
+	visibility: hidden;
+	z-index: 8;
+}
+.eyes{
+	visibility: hidden;
+	z-index: 7;
+}
+.neck{
+	visibility: hidden;
+	z-index: 6;
+}
+.gloves{
+	visibility: hidden;
+	z-index: 5;
+}
+.top{
+	visibility: hidden;
+	z-index: 4;
+}
+.shoes{
+	visibility: hidden;
+	z-index: 3;
+}
+.pants{
+	visibility: hidden;
+	z-index: 2;
+}
+.socks{
+	visibility: hidden;
+	z-index: 1;
+}

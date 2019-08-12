@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pixel Dressup Game</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Jaye Robyn">
+		<link rel = "stylesheet" type = "text/css" href = "pixeldressup/style.css"/>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110325075-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-110325075-1');
+		</script>
+	</head>
+
+	<body>
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+		<script src="pixeldressup/javascript.js" type="text/javascript"></script>
+		
+		<ul>
+		<h3>Pixel Dressup Game</h3>
+
+		<li><button id="hat_pre" type="button"><-</button>hat<button id="hat" type="button">-></button></li>
+		<li><button id="hair_pre" type="button"><-</button>hair<button id="hair" type="button">-></button></li>
+		<li><button id="eyes_pre" type="button"><-</button>eyes<button id="eyes" type="button">-></button></li>
+		<li><button id="neck_pre" type="button"><-</button>neck<button id="neck" type="button">-></button></li>
+		<li><button id="gloves_pre" type="button"><-</button>hands<button id="gloves" type="button">-></button></li>
+		<li><button id="top_pre" type="button"><-</button>top<button id="top" type="button">-></button></li>
+		<li><button id="pants_pre" type="button"><-</button>pants<button id="pants" type="button">-></button></li>
+		<li><button id="socks_pre" type="button"><-</button>socks<button id="socks" type="button">-></button></li>
+		<li><button id="shoes_pre" type="button"><-</button>shoes<button id="shoes" type="button">-></button></li>
+		<a href="../misc.html">Click here to return to the misc index.</a>
+		</ul>
+		
+		<img id="character" src="pixeldressup/default.png"/>
+		
+		<img id="ha0" class="hat" src="pixeldressup/blank.png">
+		<img id="ha1" class="hat" src="pixeldressup/ha1.png">				
+		<img id="ha2" class="hat" src="pixeldressup/ha2.png">
+		<img id="ha3" class="hat" src="pixeldressup/ha3.png">
+		<img id="ha4" class="hat" src="pixeldressup/ha4.png">
+		<img id="ha5" class="hat" src="pixeldressup/ha5.png">
+		<img id="ha6" class="hat" src="pixeldressup/ha6.png">
+		<img id="ha7" class="hat" src="pixeldressup/ha7.png">
+		<img id="ha8" class="hat" src="pixeldressup/ha8.png">
+		
+		<img id="h0" class="hair" src="pixeldressup/blank.png">
+		<img id="h1" class="hair" src="pixeldressup/h1.png">
+		<img id="h2" class="hair" src="pixeldressup/h2.png">
+		<img id="h3" class="hair" src="pixeldressup/h3.png">
+		<img id="h4" class="hair" src="pixeldressup/h4.png">
+		<img id="h5" class="hair" src="pixeldressup/h5.png">
+		<img id="h6" class="hair" src="pixeldressup/h6.png">
+		<img id="h7" class="hair" src="pixeldressup/h7.png">
+		<img id="h8" class="hair" src="pixeldressup/h8.png">
+		<img id="h9" class="hair" src="pixeldressup/h9.png">
+		
+		<img id="e0" class="eyes" src="pixeldressup/blank.png">
+		<img id="e1" class="eyes" src="pixeldressup/e1.png">
+		<img id="e2" class="eyes" src="pixeldressup/e2.png">
+		<img id="e3" class="eyes" src="pixeldressup/e3.png">
+		<img id="e4" class="eyes" src="pixeldressup/e4.png">
+		<img id="e5" class="eyes" src="pixeldressup/e5.png">
+		<img id="e6" class="eyes" src="pixeldressup/e6.png">
+		<img id="e7" class="eyes" src="pixeldressup/e7.png">
+		
+		<img id="n0" class="neck" src="pixeldressup/blank.png">
+		<img id="n1" class="neck" src="pixeldressup/n1.png">
+		<img id="n2" class="neck" src="pixeldressup/n2.png">
+		<img id="n3" class="neck" src="pixeldressup/n3.png">
+		<img id="n4" class="neck" src="pixeldressup/n4.png">
+		<img id="n5" class="neck" src="pixeldressup/n5.png">
+		<img id="n6" class="neck" src="pixeldressup/n6.png">
+		
+		<img id="g0" class="gloves" src="pixeldressup/blank.png">
+		<img id="g1" class="gloves" src="pixeldressup/g1.png">
+		<img id="g2" class="gloves" src="pixeldressup/g2.png">
+		<img id="g3" class="gloves" src="pixeldressup/g3.png">
+		<img id="g4" class="gloves" src="pixeldressup/g4.png">
+		<img id="g4" class="gloves" src="pixeldressup/g5.png">
+		
+		<img id="t0" class="top" src="pixeldressup/blank.png">
+		<img id="t1" class="top" src="pixeldressup/t1.png">
+		<img id="t2" class="top" src="pixeldressup/t2.png">
+		<img id="t3" class="top" src="pixeldressup/t3.png">
+		<img id="t4" class="top" src="pixeldressup/t4.png">
+		<img id="t5" class="top" src="pixeldressup/t5.png">
+		<img id="t6" class="top" src="pixeldressup/t6.png">
+		<img id="t7" class="top" src="pixeldressup/t7.png">
+		<img id="t8" class="top" src="pixeldressup/t8.png">
+		<img id="t9" class="top" src="pixeldressup/t9.png">
+		<img id="t10" class="top" src="pixeldressup/t10.png">
+		<img id="t11" class="top" src="pixeldressup/t11.png">
+		<img id="t12" class="top" src="pixeldressup/t12.png">
+		<img id="t13" class="top" src="pixeldressup/t13.png">
+		<img id="t14" class="top" src="pixeldressup/t14.png">
+		
+		<img id="s0" class="shoes" src="pixeldressup/blank.png">
+		<img id="s1" class="shoes" src="pixeldressup/s1.png">
+		<img id="s2" class="shoes" src="pixeldressup/s2.png">
+		<img id="s3" class="shoes" src="pixeldressup/s3.png">
+		<img id="s4" class="shoes" src="pixeldressup/s4.png">
+		<img id="s5" class="shoes" src="pixeldressup/s5.png">
+		<img id="s6" class="shoes" src="pixeldressup/s6.png">
+		
+		<img id="t0" class="pants" src="pixeldressup/blank.png">
+		<img id="p1" class="pants" src="pixeldressup/p1.png">
+		<img id="p2" class="pants" src="pixeldressup/p2.png">
+		<img id="p3" class="pants" src="pixeldressup/p3.png">
+		<img id="p4" class="pants" src="pixeldressup/p4.png">
+		<img id="p5" class="pants" src="pixeldressup/p5.png">
+		<img id="p6" class="pants" src="pixeldressup/p6.png">
+		<img id="p7" class="pants" src="pixeldressup/p7.png">
+		<img id="p8" class="pants" src="pixeldressup/p8.png">
+		<img id="p9" class="pants" src="pixeldressup/p9.png">
+		<img id="p10" class="pants" src="pixeldressup/p10.png">
+		<img id="p11" class="pants" src="pixeldressup/p11.png">
+		
+		<img id="so0" class="socks" src="pixeldressup/blank.png">
+		<img id="so1" class="socks" src="pixeldressup/so1.png">
+		<img id="so2" class="socks" src="pixeldressup/so2.png">
+		<img id="so3" class="socks" src="pixeldressup/so3.png">
+		<img id="so4" class="socks" src="pixeldressup/so4.png">
+		<img id="so5" class="socks" src="pixeldressup/so5.png">
+		
+</body>
+</html>
