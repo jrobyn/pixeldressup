@@ -1,2 +1,2 @@
 # pixeldressup
-basic pixel dressup game
+basic pixel dressup game- js/ html
