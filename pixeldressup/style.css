@@ -1,15 +1,19 @@
 body{
 	background-color: #c6bbc9;
+	font-family: Comic Sans MS;
 }
 img {
 	position: absolute;
-	height: 80%;
-	margin-left: 10%;
-	margin-top: 2%;
+	height: 60%;
+	image-rendering: pixelated;
 }
 ul {
 	list-style-type: none;
 	display: inline-block;	
+}
+h3 {
+	font-size: 25px;
+	font-style: strong;
 }
 button{
     background-color: #af97af;
@@ -19,6 +23,7 @@ button{
 	margin: 3px 3px;
     text-align: center;
 	border: none;
+	font-family: Comic Sans MS;
 }
 character{
 	z-index: 0;   
