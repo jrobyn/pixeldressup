@@ -1,6 +1,21 @@
 body{
-	background-color: #c6bbc9;
+	background-color: #745978;
 	font-family: Comic Sans MS;
+}
+.article {
+	width: 90%;
+	background-color: #ca99d1;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+	letter-spacing: 1px;
+	font-size: 16px;
+	overflow: hidden;
+	border-radius: 25px;
+}
+ul {
+	margin-left: 10%;
+	margin-right: 5%;
 }
 img {
 	position: absolute;
@@ -11,12 +26,28 @@ ul {
 	list-style-type: none;
 	display: inline-block;	
 }
+hr {
+	color: #745978;
+}
 h3 {
 	font-size: 25px;
 	font-style: strong;
+	font-family: verdana;
+}
+a {
+	font-family: verdana;
+	text-decoration: none;
+	color: black;
+}
+a.current-page {
+	color: black;
+}
+
+a:hover {
+	color: white;
 }
 button{
-    background-color: #af97af;
+    background-color: #745978;
     color: white;
 	margin-bottom: 5%;
     padding: 3px 6px;
